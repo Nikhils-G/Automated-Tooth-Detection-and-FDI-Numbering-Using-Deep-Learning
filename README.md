@@ -1,6 +1,6 @@
 # Automated-Tooth-Detection-and-FDI-Numbering-Using-Deep-Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on detecting and numbering teeth in dental X-ray or oral images using a **YOLO-based deep learning model**.
 The goal is to help automate dental image analysis, making it easier for dentists and researchers to quickly identify, label, and analyze teeth.
@@ -16,7 +16,7 @@ These results show that the model performs reliably in detecting most teeth and 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. Detect individual teeth in dental images.
 2. Assign numbering to each detected tooth using the **FDI World Dental Federation system**.
@@ -24,7 +24,7 @@ These results show that the model performs reliably in detecting most teeth and 
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
 ### 1. Data Preparation
 
@@ -48,11 +48,11 @@ These results show that the model performs reliably in detecting most teeth and 
 * Assign sequential FDI numbering within quadrants.
 * Handle missing teeth by detecting large gaps.
 
-⚠️ Due to GPU limitations, the **post-processing stage is not yet implemented**, but the logic and plan are clearly defined for future work.
+ Due to GPU limitations, the **post-processing stage is not yet implemented**, but the logic and plan are clearly defined for future work.
 
 ---
 
-## 🖥️ Technologies Used
+##  Technologies Used
 
 * **Python**
 * **YOLOv8 (Ultralytics)**
@@ -62,7 +62,7 @@ These results show that the model performs reliably in detecting most teeth and 
 
 ---
 
-## 📊 Results
+## Results
 
 Confusion matrix and detection results show that the model successfully detects most teeth.
 
@@ -75,7 +75,7 @@ Confusion matrix and detection results show that the model successfully detects 
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. Clone this repository
 
@@ -103,15 +103,5 @@ Confusion matrix and detection results show that the model successfully detects 
    ```
 
 ---
-
-## 🔮 Future Work
-
-* Implement post-processing for **automatic FDI numbering**.
-* Improve accuracy with a larger annotated dataset.
-* Build a GUI or web app for dentists to upload and analyze X-rays.
-* Explore integration with clinical workflows for real-time dental diagnostics.
-
----
-
 ## 📌 Conclusion
 In this project, I focused on developing an automated system for tooth detection and numbering using deep learning. I trained a YOLO model on dental images and evaluated its performance. The results showed a precision of 0.8579, recall of 0.8886, mAP@50 of 0.7861, and mAP@50-95 of 0.6329. These scores indicate that the model is performing well in detecting most of the teeth accurately.
