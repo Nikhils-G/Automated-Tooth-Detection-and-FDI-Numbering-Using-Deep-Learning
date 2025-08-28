@@ -103,5 +103,5 @@ Confusion matrix and detection results show that the model successfully detects 
    ```
 
 ---
-## 📌 Conclusion
+##  Conclusion
 In this project, I focused on developing an automated system for tooth detection and numbering using deep learning. I trained a YOLO model on dental images and evaluated its performance. The results showed a precision of 0.8579, recall of 0.8886, mAP@50 of 0.7861, and mAP@50-95 of 0.6329. These scores indicate that the model is performing well in detecting most of the teeth accurately.
