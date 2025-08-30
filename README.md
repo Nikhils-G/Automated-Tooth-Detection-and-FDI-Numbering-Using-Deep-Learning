@@ -80,8 +80,8 @@ Confusion matrix and detection results show that the model successfully detects 
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/your-username/dental-tooth-detection.git
-   cd dental-tooth-detection
+   git clone https://github.com/Nikhils-G/Automated-Tooth-Detection-and-FDI-Numbering-Using-Deep-Learning.git
+   cd Automated-Tooth-Detection-and-FDI-Numbering-Using-Deep-Learning
    ```
 
 2. Install dependencies
@@ -93,13 +93,7 @@ Confusion matrix and detection results show that the model successfully detects 
 3. Train the model (if needed)
 
    ```bash
-   yolo detect train data=data.yaml model=yolov8s.pt epochs=100 imgsz=640
-   ```
-
-4. Run inference on new images
-
-   ```bash
-   yolo detect predict model=runs/detect/train/weights/best.pt source=your_test_images/
+   yolo detect train data=data.yaml model=yolov8n.pt epochs=200 imgsz=640
    ```
 
 ---
